@@ -40,11 +40,6 @@ qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7 \
 ro.qualcomm.bt.hci_transport=smd
 
-# Blur
-PRODUCT_PRODUCT_PROPERTIES += \
-ro.sf.blurs_are_expensive=1 \
-ro.surface_flinger.supports_background_blur=1
-
 # BPF
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.kernel.ebpf.supported=true
@@ -83,7 +78,7 @@ debug.enable.sglscale=1 \
 debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
 debug.sf.enable_hwc_vds=1 \
-debug.sf.hw=1 \
+debug.sf.hw=0 \
 debug.sf.latch_unsignaled=1 \
 debug.sf.recomputecrop=0 \
 dev.pm.dyn_samplingrate=1 \
@@ -100,8 +95,7 @@ ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
-vendor.gralloc.enable_fb_ubwc=1 \
-debug.sf.disable_backpressure=1
+vendor.gralloc.enable_fb_ubwc=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
