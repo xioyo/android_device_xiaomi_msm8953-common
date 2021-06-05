@@ -522,4 +522,7 @@
             2 - Supported with variable brightness control
     -->
     <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
+
+    <!-- Whether the device supports Smart Pixels --> 
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
