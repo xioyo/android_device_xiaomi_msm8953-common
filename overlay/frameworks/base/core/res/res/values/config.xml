@@ -614,4 +614,10 @@
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
 
     <bool name="config_button_brightness_support">true</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+
+    <!-- Defines custom Vendor sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">xiaomi.sensor.pocket</string>
 </resources>
