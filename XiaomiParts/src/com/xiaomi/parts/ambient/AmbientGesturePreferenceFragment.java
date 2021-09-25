@@ -22,7 +22,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.provider.Settings;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import androidx.preference.Preference;
 import android.view.LayoutInflater;
 import android.view.View;

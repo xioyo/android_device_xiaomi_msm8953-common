@@ -77,7 +77,7 @@
 	
     <PreferenceCategory android:title="@string/display_category">
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="fps_info"
             android:icon="@drawable/ic_fps_info"
             android:title="@string/fps_info_title"
@@ -195,7 +195,7 @@
         android:title="@string/set_on_boot"
 	android:icon="@drawable/ic_boot"
 	android:summary="@string/set_on_boot_summary" />
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="fastcharge"
             android:defaultValue="1"
             android:title="@string/fastcharge_title"
