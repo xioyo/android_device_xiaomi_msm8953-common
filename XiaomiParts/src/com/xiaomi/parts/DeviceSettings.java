@@ -9,7 +9,7 @@ import android.os.SELinux;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import androidx.preference.TwoStatePreference;
 
 import com.xiaomi.parts.fps.FPSInfoService;
