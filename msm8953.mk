@@ -75,6 +75,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -312,7 +316,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.xiaomi_parts.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.sh \
@@ -421,17 +426,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts \
-    init.xiaomi_parts.rc \
-    init.gpuboost.rc \
-    init.gpuboost.sh \
-    init.cpuboost.rc \
-    init.cpuboost.sh \
-    init.spectrum.rc \
-    init.spectrum.sh
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
